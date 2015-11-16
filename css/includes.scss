@@ -1,0 +1,17 @@
+@mixin box-sizing($style) {
+    -webkit-box-sizing: $style;
+    -moz-box-sizing: $style; 
+    box-sizing: $style;
+}
+
+@mixin border-radius($style) { 
+    -webkit-border-radius: $style;
+    -moz-border-radius: $style; 
+    border-radius: $style;
+}
+
+@mixin transition($style) { 
+    -webkit-transition: $style;
+    -moz-transition: $style; 
+    transition: $style;
+}

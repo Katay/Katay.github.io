@@ -1,0 +1,85 @@
+@media screen and (max-width: 1050px) {
+	.head_form_text-left {font-size: 20pt;}
+	.head_form_text-right {
+	    font-size: 25pt;
+	    line-height: 60px;
+	}
+
+	.wid-50-m {width: 50%;}
+	.mar-t-10-m {margin-top: 10px;}
+}
+
+@media screen and (max-width: 870px) {
+	header,
+	.brand {margin-bottom: 15px;}
+	.logo,
+	.bottom_head {padding: 15px 0 0 0;}
+	.bottom_text {padding-bottom: 15px;}
+	footer {padding: 15px 0;}
+	.head_form_text-left {font-size: 15pt;}
+	.head_form_text-right {
+	    font-size: 20pt;
+	    line-height: 50px;
+	}
+	.brand_name {font-size: 13pt;}
+	form {
+    	margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+	.head_form_text-right {
+		font-size: 17pt;
+		line-height: 40px;
+	}
+	.head_form_text-left {font-size: 12pt;}
+	form {
+		padding: 15px 15px 15px 0;
+		&>div {
+		    padding-left: 15px;
+		}
+	}
+	input, 
+	button {line-height: 35px;}
+	nav {
+    	margin: 10px 0 0 -5px;
+    }
+	
+}
+
+@media screen and (max-width: 520px) {
+	.wid-100-s {width: 100%;}
+	.pad-t-10-s {padding-top: 10px;}
+	.head_form_text-left,
+	.head_form_text-right {
+		float: none;
+		text-align: center;
+	}
+	header {
+		min-height: 390px;
+    	text-align: center;
+	}
+	.brand_name {
+	    font-size: 16pt;
+	    margin-bottom: 3%;
+	}	
+}
+
+@media screen and (max-width: 480px) {
+	header {min-height: 370px;}
+	.logo {width: 140px;}
+	.brand_name {font-size: 13pt;}
+	.bottom_head {font-size: 20pt;}
+	nav {
+	    margin: 0;
+	    float: right;
+	    text-align: right;
+	    a,
+	    a:first-child {
+	    	padding: 2px 5px;
+    		border-right: 1px solid #0ac18c;
+    		border-left: 0;
+	    	display: block;
+	    }
+	}
+}

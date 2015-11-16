@@ -1,0 +1,33 @@
+footer {
+	background: #252525;
+	padding: 25px 0;
+}
+.footer_logo {
+	width: 92px;
+	img {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+nav {
+	float: left;
+	margin: 14px 0 0 20px;
+	a {
+		color: #0ac18c;
+		display: inline-block;
+		padding: 0 5px 2px 5px;
+		line-height: 1;
+		border-left: 1px solid #0ac18c;
+		font-size: 9pt;
+		&:first-child {border: 0;}
+		&:hover {text-decoration: underline;}
+	}
+}
+
+.footer_text {
+	color: #fff;
+	font-size: 8pt;
+	margin-top: 10px;
+}

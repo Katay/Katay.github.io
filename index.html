@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vaniki</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	
+	<!-- START HEADER -->
+	<header id="header">
+		<div class="wrapper">
+			<a class="logo" href=""><img src="images/logo.png" /></a>
+		</div>
+		<div class="wrapper head_form">
+			<div class="head_form_text-right wid-50-l wid-100-s">
+				Join Today!
+			</div>
+			<div class="head_form_text-left wid-50-l wid-100-s">
+				The UK’s Best Loved FREE<br />
+				Rewards Community
+			</div>			
+			<div class="clear"></div>
+			<form>
+				<div class="fl wid-25-l wid-50-m wid-100-s">
+					<input type="text" placeholder="First name" />
+				</div>
+				<div class="fl wid-25-l wid-50-m wid-100-s pad-t-10-s">
+					<input type="text" placeholder="Last name" />
+				</div>
+				<div class="fl wid-25-l wid-50-m mar-t-10-m wid-100-s">
+					<input type="text" placeholder="Email" />
+				</div>
+				<div class="fl wid-25-l wid-50-m mar-t-10-m wid-100-s last">
+					<button>Get Started</button>
+				</div>
+				<div class="clear"></div>
+			</form>
+		</div>
+	</header>
+
+	<!-- END HEADER -->
+
+	<!-- START BRANDS -->
+
+	<section>
+		<div class="wrapper">
+			<div class="brand">
+				<a class="wid-50-l fl db wid-100-s" href="#" >
+					<div class="brand_name">M&S Gift Cards</div>
+					<img class="brand_img" src="images/m&s.jpg" />
+				</a>
+				<a class="wid-50-l fl db wid-100-s" href="#" >
+					<div class="brand_name">IKEA Gift Cards</div>
+					<img class="brand_img" src="images/ikea.jpg" />
+				</a>
+				<a class="wid-50-l fl db wid-100-s" href="#" >
+					<div class="brand_name">Amazon Gift Cards</div>
+					<img class="brand_img" src="images/amazon.jpg" />
+				</a>
+				<a class="wid-50-l fl db wid-100-s" href="#" >
+					<div class="brand_name">Asda Gift Cards</div>
+					<img class="brand_img" src="images/asda.jpg" />
+				</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- AND BRANDS -->
+
+	<!-- START BOTTOM FORM -->
+
+	<section>
+		<div class="bottom">
+			<div class="wrapper">
+				<div class="bottom_head">Join Today!</div>
+				<form>
+					<div class="fl wid-25-l wid-50-m wid-100-s">
+						<input type="text" placeholder="First name" />
+					</div>
+					<div class="fl wid-25-l wid-50-m wid-100-s pad-t-10-s">
+						<input type="text" placeholder="Last name" />
+					</div>
+					<div class="fl wid-25-l wid-50-m mar-t-10-m wid-100-s">
+						<input type="text" placeholder="Email" />
+					</div>
+					<div class="fl wid-25-l wid-50-m mar-t-10-m wid-100-s last">
+						<button>Get Started</button>
+					</div>
+					<div class="clear"></div>
+				</form>
+				<div class="bottom_text">
+					Over 18s and UK residents only T&Cs apply <a href="/">Prize Draw Rules. Terms & Conditions</a> and <a href="/">Privacy Policy</a>. Vaniki is a trading name of Singularis Digital Limited. We may share your information with carefully selected partners for marketing purposes and we may use the winners’ details for publicity purposes.
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	<!-- END BOTTOM FORM -->
+	
+	<!-- START FOOTER -->
+
+	<footer>
+		<div class="wrapper">
+			<a class="footer_logo fl db" href="/"><img src="images/logo.png" /></a>
+			<nav>
+				<a href="#">PRIZE DRAW RULES</a>
+				<a href="#">TERMS & CONDITIONS</a>
+				<a href="#">PRIVACY POLICY</a>
+			</nav>
+			<div class="clear"></div>
+			<div class="footer_text">Vaniki.co.uk is operated by Singularis Digital Limited ("We"). We are registered in England and Wales under company number 09105024. Our registered office is at Lowin House, Tregolls Road, Truro, TR1 2NA.</div>
+		</div>
+	</footer>
+
+	<!-- END FOOTER -->
+
+
+
+<!-- SCRIPT FOR HEADER RESPONSE -->
+<script type="text/javascript">
+	function getH() {
+		var header = document.getElementById("header");
+		var heightW = window.innerHeight;
+		var He = ( heightW / 100 ) * 80;
+		
+		var widthW = window.innerWidth;
+		if( widthW <= 800 ) {
+			header.style.height = "auto";
+		} else {
+			header.style.height = He + 'px'; 
+		}
+	}
+	getH();	
+
+	window.onresize = function () {	
+		getH();
+	}
+</script>	
+</body>
+</html>

@@ -1,0 +1,44 @@
+header {
+	background: url(../images/head.jpg) no-repeat top center; 
+	background-size: cover;
+	position: relative;
+	min-height: 310px;
+	margin-bottom: 25px;
+}
+
+.logo {
+	padding: 30px 0 0 0;
+    display: inline-block;
+    img {
+    	width: 100%;
+    	max-width: 100%;
+    	height: auto;
+    }
+}
+
+.head_form_text-left {
+	font-size: 25pt;
+	text-transform: uppercase;
+	float: left;
+}
+
+.head_form_text-right {
+	font-size: 40pt;
+	text-transform: uppercase;
+	line-height: 75px;
+	text-align: right;
+	padding: 0 20px 0 0;
+	float: right;
+}
+.head_form {
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	form {
+		background: rgba(37,37,37,0.8);
+		
+	}
+}
+

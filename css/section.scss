@@ -1,0 +1,54 @@
+.brand {	
+	margin-right: -3px;
+	margin-left: 1px;
+	margin-bottom: 25px;
+	text-align: center;
+	a {
+		padding: 4% 2% 6% 2%;
+		background: #f8f9fb;
+		border: 1px solid #e6eaed;
+		margin: -1px;	
+		@include transition(All .3s ease); 	
+		&:hover {
+			background: #0ac18c;
+			color: #fff;
+		}		
+	}
+}
+
+.brand_name {
+	font-size: 20pt;
+	text-transform: uppercase; 
+	margin-bottom: 10%;
+}
+
+.brand_img {
+	width: 70%;
+	max-width: 100%;
+	height: auto;
+	@include border-radius(5px); 
+}
+
+.bottom {
+	background: url(../images/bg-bottom.jpg) no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	form {background: #fff;}
+}
+.bottom_head {
+	text-align: center;
+	color: #fff;
+	font-size: 30pt;
+	padding: 25px 0 0 0;
+	text-transform: uppercase;
+}
+.bottom_text {
+	color: #fff;
+	font-size: 9pt;
+	padding-bottom: 25px;
+	a {
+		color: #fff;
+		text-decoration: underline; 
+		&:hover {text-decoration: none;}
+	}
+}
